@@ -1,0 +1,208 @@
+[
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-steel"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-steel"
+			},
+			"C": { type: "item", code: "game:metalplate-steel"
+			},
+			"D": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "viking steel plate legs",
+		output: { type: "item", code: "fa-viking-legs-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-meteoriciron"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-meteoriciron"
+			},
+			"C": { type: "item", code: "game:metalplate-meteoriciron"
+			},
+			"D": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "viking meteoriciron plate legs",
+		output: { type: "item", code: "fa-viking-legs-meteoriciron-none"
+		}
+	},
+	{
+		ingredientPattern: "ABF,CDC,EGE",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "game:metalchain-iron"
+			},
+			"B": { type: "item", code: "game:armor-legs-plate-iron"
+			},
+			"C": { type: "item", code: "game:metalplate-iron"
+			},
+			"D": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
+			},
+			"E": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 2
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"F": { type: "item", code: "game:hide-pelt-large", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "viking iron plate legs",
+		output: { type: "item", code: "fa-viking-legs-iron-none"
+		}
+	},
+	{
+		ingredientPattern: "BEB,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 3
+			},
+			"B": { type: "item", code: "game:cloth-plain",  quantity: 3
+			},
+			"E": { type: "item", code: "fa-viking-legs-*-heavy-none",
+					name: "metal", 
+					allowedVariants: [
+					"steel",
+					"meteoriciron",
+					"iron"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking legs color",
+		output: { type: "item", code: "fa-viking-legs-{metal}-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AE,BG",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-legs-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"E": { type: "item", 
+					code: "fa-viking-legs-*-none",
+					name: "metal",
+					allowedVariants: [
+					"iron",
+					"meteoriciron",
+					"steel"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"B": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "viking plate bear legs",
+		output: { type: "item", code: "fa-viking-legs-{metal}-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-legs-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "viking steel plate armet deplume",
+		output: { type: "item", code: "fa-viking-legs-steel-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-legs-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "viking meteoriciron plate armet deplume",
+		output: { type: "item", code: "fa-viking-legs-meteoriciron-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-legs-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "viking meteoriciron plate armet deplume",
+		output: { type: "item", code: "fa-viking-legs-iron-none"
+		}
+	}
+]
