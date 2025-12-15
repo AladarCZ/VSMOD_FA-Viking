@@ -18,12 +18,12 @@
 	"texturesByType": {
 		"fa-viking-legs-*bear*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikinglegs": { "base": "armor/entity/viking_{metallegs}" },
+			"vikinglegs": { "base": "armor/entity/viking_{version}{metallegs}" },
 			"line": { "base": "game:entity/humanoid/serapharmor/hide/bear/{line}" }
 				},
 		"fa-viking-legs-*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikinglegs": { "base": "armor/entity/viking_{metallegs}" },
+			"vikinglegs": { "base": "armor/entity/viking_{version}{metallegs}" },
 			"line": { "base": "block/lines/line{line}" }
 				}
 	},
@@ -31,7 +31,7 @@
 	"maxstacksize": 4,
 	"attributes": {
 		"handbook": { 
-			"groupBy":["fa-viking-legs-{metallegs}-*"]
+			"groupBy":["*{metallegs}-{version}*"]
 		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,

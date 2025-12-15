@@ -15,20 +15,20 @@
 	],
 	"shapeByType": 
 	{
-		"fa-viking-head-vendel-*bear*": { "base": "entity/armor/viking/vikingvendelbearhead" },
-		"fa-viking-head-vendel-*": { "base": "entity/armor/viking/vikingvendelhead" },
-		"fa-viking-head-gjermundbu-*bear*": { "base": "entity/armor/viking/vikinggjermundbubearhead" },
-		"fa-viking-head-gjermundbu-*": { "base": "entity/armor/viking/vikinggjermundbuhead" }
+		"fa-viking-head-vendel-*bear*": { "base": "entity/armor/viking/heavy/vikingvendelbearhead" },
+		"fa-viking-head-vendel-*": { "base": "entity/armor/viking/heavy/vikingvendelhead" },
+		"fa-viking-head-gjermundbu-*bear*": { "base": "entity/armor/viking/light/vikinggjermundbubearhead" },
+		"fa-viking-head-gjermundbu-*": { "base": "entity/armor/viking/light/vikinggjermundbuhead" }
 	},
 	"texturesByType": {
 		"*bear*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikinghead": { "base": "armor/entity/viking_{metalhead}" },
+			"vikinghead": { "base": "armor/entity/viking_{style}{metalhead}" },
 			"plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
 				},
 		"*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikinghead": { "base": "armor/entity/viking_{metalhead}" },
+			"vikinghead": { "base": "armor/entity/viking_{style}{metalhead}" },
 			"plume": { "base": "block/plume/plume{plume}" }
 				}
 	},
@@ -36,7 +36,7 @@
 	"maxstacksize": 4,
 	"attributes": {
 		"handbook": { 
-			"groupBy":["fa-viking-head-{style}-{metalhead}-*"]
+			"groupBy":["*{metalhead}-{style}*"]
 		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,

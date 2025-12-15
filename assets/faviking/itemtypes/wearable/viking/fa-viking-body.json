@@ -12,20 +12,18 @@
 	],
 	"shapeByType": 
 	{
-		"*heavy*bear*": { "base": "entity/armor/viking/heavy/vikingheavybearbody" },
-		"*heavy*": { "base": "entity/armor/viking/heavy/vikingheavybody" },
-		"*light*bear*": { "base": "entity/armor/viking/light/vikinglightbearbody" },
-		"*light*": { "base": "entity/armor/viking/light/vikinglightbody" }
+		"*bear*": { "base": "entity/armor/viking/{type}/viking{type}bearbody" },
+		"**": { "base": "entity/armor/viking/{type}/viking{type}body" }
 	},
 	"texturesByType": {
 		"*bear*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikingbody": { "base": "armor/entity/viking_{metalbody}" },
+			"vikingbody": { "base": "armor/entity/viking_{type}{metalbody}" },
 			"textile": { "base": "game:entity/humanoid/serapharmor/hide/bear/{textile}" }
 				},
 		"*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"vikingbody": { "base": "armor/entity/viking_{metalbody}" },
+			"vikingbody": { "base": "armor/entity/viking_{type}{metalbody}" },
 			"textile": { "base": "block/textiles/textile{textile}" }
 				}
 	},
@@ -33,7 +31,7 @@
 	"maxstacksize": 4,
 	"attributes": {
 		"handbook": { 
-			"groupBy":["fa-viking-body-{metalbody}-*"]
+			"groupBy":["*{metalbody}-{type}*"]
 		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
