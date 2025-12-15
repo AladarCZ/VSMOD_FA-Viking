@@ -3,8 +3,9 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "metalbody",  "states": ["iron", "steel"]},
-		{ "code": "textile",  "states": ["none", "bear-black", "bear-brown", "bear-polar"]}
+		{ "code": "metalbody",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "type",  "states": ["heavy", "light"]},
+		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"allowedVariants": [
 		"*"

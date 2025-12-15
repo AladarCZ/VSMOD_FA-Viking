@@ -3,9 +3,9 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "style",  "states": ["vendel"]},
-		{ "code": "metalhead",  "states": ["iron", "steel"]},
-		{ "code": "plume",  "states": ["none", "bear-black", "bear-brown", "bear-polar"]}
+		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "style",  "states": ["vendel", "gjermundbu"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"behaviors": [
 		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.3, z2: 1 } } }

@@ -4,7 +4,8 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metallegs",  "states": ["iron", "steel"]},
-		{ "code": "line",  "states": ["none","bear-black","bear-brown","bear-polar"]}
+		{ "code": "version",  "states": ["heavy", "light"]},
+		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"allowedVariants": [
 		"*"
