@@ -3,7 +3,7 @@
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendel-steel-*",  
+			"B": { type: "item", code: "fa-viking-head-steel-vendel-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -34,14 +34,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking steel plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendel-steel-{color}"
+		output: { type: "item", code: "fa-viking-head-steel-vendel-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendel-meteoriciron-*",  
+			"B": { type: "item", code: "fa-viking-head-meteoriciron-vendel-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -72,14 +72,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking meteoric iron plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendel-meteoriciron-{color}"
+		output: { type: "item", code: "fa-viking-head-meteoriciron-vendel-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendel-iron-*",  
+			"B": { type: "item", code: "fa-viking-head-iron-vendel-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -110,14 +110,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking iron plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendel-iron-{color}"
+		output: { type: "item", code: "fa-viking-head-iron-vendel-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendelwing-steel-*",  
+			"B": { type: "item", code: "fa-viking-head-steel-gjermundbu-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -131,10 +131,13 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
-			"P": { type: "item", code: "game:metalplate-steel"
+			"P": { type: "item", code: "game:metalchain-steel"
 			},
 			"L": { type: "item", code: "game:leather-normal-plain"
 			}
@@ -145,14 +148,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking steel plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendelwing-steel-{color}"
+		output: { type: "item", code: "fa-viking-head-steel-gjermundbu-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendelwing-meteoriciron-*",  
+			"B": { type: "item", code: "fa-viking-head-meteoriciron-gjermundbu-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -166,10 +169,13 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
-			"P": { type: "item", code: "game:metalplate-meteoriciron"
+			"P": { type: "item", code: "game:metalchain-meteoriciron"
 			},
 			"L": { type: "item", code: "game:leather-normal-plain"
 			}
@@ -180,14 +186,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking meteoric iron plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendelwing-meteoriciron-{color}"
+		output: { type: "item", code: "fa-viking-head-meteoriciron-gjermundbu-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-head-vendelwing-iron-*",  
+			"B": { type: "item", code: "fa-viking-head-iron-gjermundbu-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -201,10 +207,13 @@
 					"gray",
 					"black",
 					"white",
-					"none"
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
 				]
 			},
-			"P": { type: "item", code: "game:metalplate-iron"
+			"P": { type: "item", code: "game:metalchain-iron"
 			},
 			"L": { type: "item", code: "game:leather-normal-plain"
 			}
@@ -215,14 +224,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking iron plate vendel repair",
-		output: { type: "item", code: "fa-viking-head-vendelwing-iron-{color}"
+		output: { type: "item", code: "fa-viking-head-iron-gjermundbu-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-body-steel-*",  
+			"B": { type: "item", code: "fa-viking-body-steel-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -253,14 +262,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking steel plate body repair",
-		output: { type: "item", code: "fa-viking-body-steel-{color}"
+		output: { type: "item", code: "fa-viking-body-steel-heavy-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-body-meteoriciron-*",  
+			"B": { type: "item", code: "fa-viking-body-meteoriciron-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -291,14 +300,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking meteoric iron plate body repair",
-		output: { type: "item", code: "fa-viking-body-meteoriciron-{color}"
+		output: { type: "item", code: "fa-viking-body-meteoriciron-heavy-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-body-iron-*",  
+			"B": { type: "item", code: "fa-viking-body-iron-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -329,14 +338,128 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking iron plate body repair",
-		output: { type: "item", code: "fa-viking-body-iron-{color}"
+		output: { type: "item", code: "fa-viking-body-iron-heavy-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-legs-steel-*",  
+			"B": { type: "item", code: "fa-viking-body-steel-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking steel plate body repair",
+		output: { type: "item", code: "fa-viking-body-steel-light-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-body-meteoriciron-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking meteoric iron plate body repair",
+		output: { type: "item", code: "fa-viking-body-meteoriciron-light-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-body-iron-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking iron plate body repair",
+		output: { type: "item", code: "fa-viking-body-iron-light-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-legs-steel-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -367,14 +490,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking steel plate legs repair",
-		output: { type: "item", code: "fa-viking-legs-steel-{color}"
+		output: { type: "item", code: "fa-viking-legs-steel-heavy-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-legs-meteoriciron-*",  
+			"B": { type: "item", code: "fa-viking-legs-meteoriciron-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -405,14 +528,14 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking meteoric iron plate legs repair",
-		output: { type: "item", code: "fa-viking-legs-meteoriciron-{color}"
+		output: { type: "item", code: "fa-viking-legs-meteoriciron-heavy-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BL,P_",
 		recipeGroup: 2,
 		ingredients: {
-			"B": { type: "item", code: "fa-viking-legs-iron-*",  
+			"B": { type: "item", code: "fa-viking-legs-iron-heavy-*",  
 						name: "color", allowedVariants: [
 					"plain",
 					"blue",
@@ -443,7 +566,121 @@
 		copyAttributesFrom: 'B',
 		averageDurability: false,
 		name: "viking iron plate legs repair",
-		output: { type: "item", code: "fa-viking-legs-iron-{color}"
+		output: { type: "item", code: "fa-viking-legs-iron-heavy-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-legs-steel-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-steel"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking steel plate legs repair",
+		output: { type: "item", code: "fa-viking-legs-steel-light-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-legs-meteoriciron-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-meteoriciron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking meteoric iron plate legs repair",
+		output: { type: "item", code: "fa-viking-legs-meteoriciron-light-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-viking-legs-iron-light-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalchain-iron"
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "viking iron plate legs repair",
+		output: { type: "item", code: "fa-viking-legs-iron-light-{color}"
 		}
 	}
 ]
