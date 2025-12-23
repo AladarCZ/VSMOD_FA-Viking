@@ -4,7 +4,7 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "style",  "states": ["vendel", "gjermundbu"]},
+		{ "code": "style",  "states": ["heavy", "light"]},
 		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"behaviors": [
@@ -15,10 +15,8 @@
 	],
 	"shapeByType": 
 	{
-		"fa-viking-head-vendel-*bear*": { "base": "entity/armor/viking/heavy/vikingvendelbearhead" },
-		"fa-viking-head-vendel-*": { "base": "entity/armor/viking/heavy/vikingvendelhead" },
-		"fa-viking-head-gjermundbu-*bear*": { "base": "entity/armor/viking/light/vikinggjermundbubearhead" },
-		"fa-viking-head-gjermundbu-*": { "base": "entity/armor/viking/light/vikinggjermundbuhead" }
+		"*bear*": { "base": "entity/armor/viking/{style}/viking{style}bearhead" },
+		"*": { "base": "entity/armor/viking/{style}/viking{style}head" }
 	},
 	"texturesByType": {
 		"*bear*": { 
@@ -50,44 +48,46 @@
 			"*": 1
 		},
 		"disableElementsByType": {
-			"*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"]
+			"*heavy*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"],
+			"*light*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
+
 		},
 		"defaultProtLoss": {
 			perTierRelativeProtectionLoss: [0.03, 0.15],
 			perTierFlatDamageReductionLoss: [0.1, 0.2],
 		},
 		"protectionModifiersByType": {
-			"*steel*vendel*": {
+			"*steel*heavy*": {
 				relativeProtection: 0.97,
 				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
-			"*meteoric*vendel*": {
+			"*meteoric*heavy*": {
 				relativeProtection: 0.965,
 				flatDamageReduction: 2.4,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
-			"*iron*vendel*": {
+			"*iron*heavy*": {
 				relativeProtection: 0.96,
 				flatDamageReduction: 2.35,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
-			"*steel*gjermundbu*": {
+			"*steel*light*": {
 				relativeProtection: 0.92,
 				flatDamageReduction: 2.6,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
-			"*meteoric*gjermundbu*": {
+			"*meteoric*light*": {
 				relativeProtection: 0.91,
 				flatDamageReduction: 2.55,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
-			"*iron*gjermundbu*": {
+			"*iron*light*": {
 				relativeProtection: 0.91,
 				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
@@ -95,33 +95,33 @@
 			}
 		},
 		"statModifiersByType": {
-			"*vendel*bear*": {
+			"*heavy*bear*": {
 				rangedWeaponsAcc: -0.1,
 				rangedWeaponsSpeed: -0.2,
 				walkSpeed: -0.11,
 				healingeffectivness: -0.26,
 				hungerrate: 0.15
 			},
-			"*vendel*": {
+			"*heavy*": {
 				rangedWeaponsAcc: -0.10,
 				rangedWeaponsSpeed: -0.20,
 				walkSpeed: -0.09,
 				healingeffectivness: -0.26,
 				hungerrate: 0.15
 			},
-			"*gjermundbu*bear*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+			"*light*bear*": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.07,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			},
-			"*gjermundbu*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+			"*light*": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.05,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			}
 		},
     	"groundStorageTransform": {
@@ -133,12 +133,12 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmoryviking": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*iron*vendel*": 2700,
-		"*meteoric*vendel*": 4000,
-		"*steel*vendel*": 6000,
-		"*iron*gjermundbu*": 2700,
-		"*meteoric*gjermundbu*": 4000,
-		"*steel*gjermundbu*": 6000
+		"*-iron*heavy*": 2700,
+		"*meteoric*heavy*": 4000,
+		"*steel*heavy*": 6000,
+		"*-iron*light*": 1800,
+		"*meteoric*light*": 3000,
+		"*steel*light*": 4000
 	},
 	"fpHandTransformByType": {
 		"*": {

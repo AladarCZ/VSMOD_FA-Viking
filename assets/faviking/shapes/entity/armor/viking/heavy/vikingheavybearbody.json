@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-			"vikingbody": "armor/entity/greenwich_steel",
+			"vikingbody": "armor/entity/viking_heavysteel",
 			"textile": "block/textiles/textilered"
 	},
 	"elements": [

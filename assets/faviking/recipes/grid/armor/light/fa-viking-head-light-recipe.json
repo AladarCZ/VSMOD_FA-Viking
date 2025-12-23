@@ -7,7 +7,7 @@
 			},
 			"D": { type: "item", code: "game:metalplate-steel"
 			},
-			"E": { type: "item", code: "game:armor-head-scale-steel"
+			"E": { type: "item", code: "game:armor-head-chain-steel"
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -18,8 +18,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking steel plate gjermundbu",
-		output: { type: "item", code: "fa-viking-head-steel-gjermundbu-none"
+		name: "viking steel plate light",
+		output: { type: "item", code: "fa-viking-head-steel-light-none"
 		}
 	},
 	{
@@ -30,7 +30,7 @@
 			},
 			"D": { type: "item", code: "game:metalplate-meteoriciron"
 			},
-			"E": { type: "item", code: "game:armor-head-scale-meteoriciron"
+			"E": { type: "item", code: "game:armor-head-chain-meteoriciron"
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -41,8 +41,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking steel meteoriciron gjermundbu",
-		output: { type: "item", code: "fa-viking-head-meteoriciron-gjermundbu-none"
+		name: "viking steel meteoriciron light",
+		output: { type: "item", code: "fa-viking-head-meteoriciron-light-none"
 		}
 	},
 	{
@@ -53,7 +53,7 @@
 			},
 			"D": { type: "item", code: "game:metalplate-iron"
 			},
-			"E": { type: "item", code: "game:armor-head-scale-iron"
+			"E": { type: "item", code: "game:armor-head-chain-iron"
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -64,8 +64,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking iron plate gjermundbu",
-		output: { type: "item", code: "fa-viking-head-iron-gjermundbu-none"
+		name: "viking iron plate light",
+		output: { type: "item", code: "fa-viking-head-iron-light-none"
 		}
 	},
 	{
@@ -92,7 +92,7 @@
 			},
 			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
 			},
-			"E": { type: "item", code: "fa-viking-head-*-gjermundbu-none",
+			"E": { type: "item", code: "fa-viking-head-*-light-none",
 					name: "metal", 
 					allowedVariants: [
 					"steel",
@@ -105,8 +105,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking gjermundbu color",
-		output: { type: "item", code: "fa-viking-head-{metal}-gjermundbu-{color}"
+		name: "viking light color",
+		output: { type: "item", code: "fa-viking-head-{metal}-light-{color}"
 		}
 	},
 	{
@@ -123,7 +123,7 @@
 				]
 			},
 			"E": { type: "item", 
-					code: "fa-viking-head-*-gjermundbu-none",
+					code: "fa-viking-head-*-light-none",
 					name: "metal",
 					allowedVariants: [
 					"iron",
@@ -139,7 +139,64 @@
 		width: 2,
 		height: 2,
 		name: "gothi plate sallet",
-		output: { type: "item", code: "fa-viking-head-{metal}-gjermundbu-bear-{bear}"
+		output: { type: "item", code: "fa-viking-head-{metal}-light-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-head-steel-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking steel plate light deplume",
+		output: { type: "item", code: "fa-viking-head-steel-light-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-head-meteoriciron-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking meteoriciron plate light deplume",
+		output: { type: "item", code: "fa-viking-head-meteoriciron-light-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-head-iron-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking meteoriciron plate light deplume",
+		output: { type: "item", code: "fa-viking-head-iron-light-none"
 		}
 	}
 ]

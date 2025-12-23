@@ -13,7 +13,7 @@
 	"shapeByType": 
 	{
 		"*bear*": { "base": "entity/armor/viking/{type}/viking{type}bearbody" },
-		"**": { "base": "entity/armor/viking/{type}/viking{type}body" }
+		"*": { "base": "entity/armor/viking/{type}/viking{type}body" }
 	},
 	"texturesByType": {
 		"*bear*": { 
@@ -105,30 +105,30 @@
 				hungerrate: 0.15
 			},
 			"*light*bear*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.07,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			},
 			"*light*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.05,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			}
 		}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmoryviking": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*iron*heavy*": 2700,
+		"*-iron*heavy*": 2700,
 		"*meteoric*heavy*": 4000,
 		"*steel*heavy*": 6000,
-		"*iron*light*": 2700,
-		"*meteoric*light*": 4000,
-		"*steel*light*": 6000
+		"*-iron*light*": 1800,
+		"*meteoric*light*": 3000,
+		"*steel*light*": 4000
 	},
 	"fpHandTransformByType": {
 		"*": {

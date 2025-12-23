@@ -152,14 +152,14 @@
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-legs-steel-*"
+			"A": { type: "item", code: "fa-viking-legs-steel-heavy*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,
@@ -171,14 +171,14 @@
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-legs-meteoriciron-*"
+			"A": { type: "item", code: "fa-viking-legs-meteoriciron-heavy*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,
@@ -190,14 +190,14 @@
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-legs-iron-*"
+			"A": { type: "item", code: "fa-viking-legs-iron-heavy-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,

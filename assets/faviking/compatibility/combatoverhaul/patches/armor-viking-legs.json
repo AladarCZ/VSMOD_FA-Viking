@@ -80,33 +80,33 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 8,
-              "SlashingAttack": 9,
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
               "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.12,
+              "walkspeed": -0.10,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.04,
-              "hungerrate": 0.06
+              "healingeffectivness": -0.1,
+              "hungerrate": 0.08
             }
           },
           "fa-viking-legs-steel-light*": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 8,
-              "SlashingAttack": 9,
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
               "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.1,
+              "walkspeed": -0.08,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.06,
+              "healingeffectivness": -0.1,
               "hungerrate": 0.08
             }
           },
@@ -114,16 +114,16 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 7,
-              "SlashingAttack": 8,
-              "BluntAttack": 6
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.12,
+              "walkspeed": -0.1,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.06,
+              "healingeffectivness": -0.1,
               "hungerrate": 0.08
             }
           },
@@ -131,16 +131,16 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Legs", "Feet"],
             "Resists": {
-              "PiercingAttack": 7,
-              "SlashingAttack": 8,
-              "BluntAttack": 6
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.1,
+              "walkspeed": -0.08,
               "manipulationSpeed": 0,
               "steadyAim": 0,
-              "healingeffectivness": -0.06,
+              "healingeffectivness": -0.1,
               "hungerrate": 0.08
             }
           }
@@ -154,12 +154,12 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "*steel*heavy*": 33000,
-        "*meteoric*heavy*": 13200,
-        "*iron*heavy*": 13200,
-        "*steel*light*": 33000,
-        "*meteoric*light*": 13200,
-        "*iron*light*": 13200
+        "*steel*heavy*": 25000,
+        "*meteoric*heavy*": 11200,
+        "*iron*heavy*": 9000,
+        "*steel*light*": 19000,
+        "*meteoric*light*": 9600,
+        "*iron*light*": 6700
     }
   },
   {

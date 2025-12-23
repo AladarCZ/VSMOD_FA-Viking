@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"vikinglegs": "armor/entity/viking_steel",
+		"vikinglegs": "armor/entity/viking_heavysteel",
 		"line": "block/lines/linered"
 	},
 	"elements": [

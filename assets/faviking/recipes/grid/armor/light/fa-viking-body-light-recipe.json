@@ -7,7 +7,7 @@
 			},
 			"B": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
 			},
-			"E": { type: "item", code: "game:armor-body-scale-steel"
+			"E": { type: "item", code: "game:armor-body-chain-steel"
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 4
 			},
@@ -30,7 +30,7 @@
 			},
 			"B": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
 			},
-			"E": { type: "item", code: "game:armor-body-scale-meteoriciron"
+			"E": { type: "item", code: "game:armor-body-chain-meteoriciron"
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 4
 			},
@@ -53,7 +53,7 @@
 			},
 			"B": { type: "item", code: "fa-viking-schematic", returnedStack: { "type": "item", "code": "fa-viking-schematic" }
 			},
-			"E": { type: "item", code: "game:armor-body-scale-iron"
+			"E": { type: "item", code: "game:armor-body-chain-iron"
 			},
 			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 4
 			},
@@ -140,6 +140,63 @@
 		height: 2,
 		name: "gothi plate sallet",
 		output: { type: "item", code: "fa-viking-body-{metal}-light-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-body-steel-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking steel plate head deplume",
+		output: { type: "item", code: "fa-viking-body-steel-light-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-body-meteoriciron-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking meteoriciron plate deplume",
+		output: { type: "item", code: "fa-viking-body-meteoriciron-light-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-viking-body-iron-light*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 3,
+		height: 2,
+		name: "viking steel plate sallet deplume",
+		output: { type: "item", code: "fa-viking-body-iron-light-none"
 		}
 	}
 ]

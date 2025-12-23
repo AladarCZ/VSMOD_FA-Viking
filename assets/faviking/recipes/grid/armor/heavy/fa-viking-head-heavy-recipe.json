@@ -18,8 +18,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking steel plate vendel",
-		output: { type: "item", code: "fa-viking-head-steel-vendel-none"
+		name: "viking steel plate heavy",
+		output: { type: "item", code: "fa-viking-head-steel-heavy-none"
 		}
 	},
 	{
@@ -41,8 +41,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking steel meteoriciron vendel",
-		output: { type: "item", code: "fa-viking-head-meteoriciron-vendel-none"
+		name: "viking steel meteoriciron heavy",
+		output: { type: "item", code: "fa-viking-head-meteoriciron-heavy-none"
 		}
 	},
 	{
@@ -64,8 +64,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking iron plate vendel",
-		output: { type: "item", code: "fa-viking-head-iron-vendel-none"
+		name: "viking iron plate heavy",
+		output: { type: "item", code: "fa-viking-head-iron-heavy-none"
 		}
 	},
 	{
@@ -92,7 +92,7 @@
 			},
 			"B": { type: "item", code: "game:cloth-plain",  quantity: 2
 			},
-			"E": { type: "item", code: "fa-viking-head-*-vendel-none",
+			"E": { type: "item", code: "fa-viking-head-*-heavy-none",
 					name: "metal", 
 					allowedVariants: [
 					"steel",
@@ -105,8 +105,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "viking vendel color",
-		output: { type: "item", code: "fa-viking-head-{metal}-vendel-{color}"
+		name: "viking heavy color",
+		output: { type: "item", code: "fa-viking-head-{metal}-heavy-{color}"
 		}
 	},
 	{
@@ -123,7 +123,7 @@
 				]
 			},
 			"E": { type: "item", 
-					code: "fa-viking-head-*-vendel-none",
+					code: "fa-viking-head-*-heavy-none",
 					name: "metal",
 					allowedVariants: [
 					"iron",
@@ -139,64 +139,64 @@
 		width: 2,
 		height: 2,
 		name: "gothi plate sallet",
-		output: { type: "item", code: "fa-viking-head-{metal}-vendel-bear-{bear}"
+		output: { type: "item", code: "fa-viking-head-{metal}-heavy-bear-{bear}"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-head-vendel*-steel-*"
+			"A": { type: "item", code: "fa-viking-head-steel-heavy*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,
-		name: "viking steel plate vendel deplume",
-		output: { type: "item", code: "fa-viking-head-vendel-steel-vendel-none"
+		name: "viking steel plate heavy deplume",
+		output: { type: "item", code: "fa-viking-head-steel-heavy-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-head-vendel*-meteoriciron-*"
+			"A": { type: "item", code: "fa-viking-head-meteoriciron-heavy*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,
-		name: "viking meteoriciron plate vendel deplume",
-		output: { type: "item", code: "fa-viking-head-vendel-meteoriciron-vendel-none"
+		name: "viking meteoriciron plate heavy deplume",
+		output: { type: "item", code: "fa-viking-head-meteoriciron-heavy-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-viking-head-vendel*-iron-*"
+			"A": { type: "item", code: "fa-viking-head-iron-heavy*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
 			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
 			},
 			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
+			}
 		},
 		width: 3,
 		height: 2,
-		name: "viking meteoriciron plate vendel deplume",
-		output: { type: "item", code: "fa-viking-head-iron-vendel-none"
+		name: "viking meteoriciron plate heavy deplume",
+		output: { type: "item", code: "fa-viking-head-iron-heavy-none"
 		}
 	}
 ]

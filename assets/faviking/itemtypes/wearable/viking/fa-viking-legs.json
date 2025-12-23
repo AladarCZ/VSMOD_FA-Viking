@@ -3,7 +3,7 @@
 	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
-		{ "code": "metallegs",  "states": ["iron", ,"meteoriciron", "steel"]},
+		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "version",  "states": ["heavy", "light"]},
 		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
@@ -12,16 +12,16 @@
 	],
 	"shapeByType": 
 	{
-		"fa-viking-legs-*bear*": { "base": "entity/armor/viking/vikingbearlegs" },
-		"fa-viking-legs-*": { "base": "entity/armor/viking/vikinglegs" }
+		"*bear*": { "base": "entity/armor/viking/{version}/viking{version}bearlegs" },
+		"*": { "base": "entity/armor/viking/{version}/viking{version}legs" }
 	},
 	"texturesByType": {
-		"fa-viking-legs-*bear*": { 
+		"*bear*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"vikinglegs": { "base": "armor/entity/viking_{version}{metallegs}" },
 			"line": { "base": "game:entity/humanoid/serapharmor/hide/bear/{line}" }
 				},
-		"fa-viking-legs-*": { 
+		"*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"vikinglegs": { "base": "armor/entity/viking_{version}{metallegs}" },
 			"line": { "base": "block/lines/line{line}" }
@@ -102,30 +102,30 @@
 				hungerrate: 0.15
 			},
 			"*light*bear*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.07,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			},
 			"*light*": {
-				rangedWeaponsAcc: -0.1,
-				rangedWeaponsSpeed: -0.2,
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
 				walkSpeed: -0.05,
-				healingeffectivness: -0.06,
-				hungerrate: 0.06
+				healingeffectivness: -0.15,
+				hungerrate: 0.12
 			}
 		}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmoryviking": ["*"] },
 	"renderAlphaTest": 0.25,
 	"durabilityByType": {
-		"*iron*heavy*": 2700,
+		"*-iron*heavy*": 2700,
 		"*meteoric*heavy*": 4000,
 		"*steel*heavy*": 6000,
-		"*iron*light*": 2700,
-		"*meteoric*light*": 4000,
-		"*steel*light*": 6000
+		"*-iron*light*": 1800,
+		"*meteoric*light*": 3000,
+		"*steel*light*": 4000
 	},
 	"fpHandTransformByType": {
 		"*": {

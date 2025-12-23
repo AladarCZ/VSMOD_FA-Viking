@@ -84,17 +84,17 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 8,
-              "SlashingAttack": 9,
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
               "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.06,
+              "walkspeed": -0.07,
               "manipulationSpeed": -0.08,
-              "steadyAim": -0.2,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.10
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.15,
+              "hungerrate": 0.12
             }
           },
 
@@ -102,17 +102,17 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 8,
-              "SlashingAttack": 9,
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
               "BluntAttack": 8
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.04,
+              "walkspeed": -0.05,
               "manipulationSpeed": -0.08,
-              "steadyAim": -0.2,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.10
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.15,
+              "hungerrate": 0.12
             }
           },
 
@@ -120,17 +120,17 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 7,
-              "SlashingAttack": 8,
-              "BluntAttack": 6
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.06,
+              "walkspeed": -0.07,
               "manipulationSpeed": -0.08,
-              "steadyAim": -0.2,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.10
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.15,
+              "hungerrate": 0.12
             }
           },
 
@@ -138,17 +138,17 @@
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
-              "PiercingAttack": 7,
-              "SlashingAttack": 8,
-              "BluntAttack": 6
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 7
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": -0.04,
+              "walkspeed": -0.05,
               "manipulationSpeed": -0.08,
-              "steadyAim": -0.2,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.10
+              "steadyAim": -0.10,
+              "healingeffectivness": -0.15,
+              "hungerrate": 0.12
             }
           }
         }
@@ -163,10 +163,10 @@
     "value": {
         "*steel*heavy*": 33000,
         "*meteoric*heavy*": 13200,
-        "*iron*heavy*": 13200,
-        "*steel*light*": 33000,
-        "*meteoric*light*": 13200,
-        "*iron*light*": 13200
+        "*iron*heavy*": 10200,
+        "*steel*light*": 22000,
+        "*meteoric*light*": 9200,
+        "*iron*light*": 6500
     }
   },
   {
